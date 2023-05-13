@@ -5,7 +5,7 @@ export function Home() {
   return (
     <>
       <div>
-      <Header showBrand={true} showNavList={true} />
+        <Header showBrand={true} showNavList={true} />
         <section id="hero">
           <div class="hero container">
             <div>
@@ -214,9 +214,9 @@ export function Home() {
                   </li>
                 </ul>
               </p>
-              <a href="hehe" class="cta">
-                Vote Now
-              </a>
+              <Link to="/voting" className="cta">
+                Vote now
+              </Link>
             </div>
           </div>
         </section>
